@@ -1,5 +1,5 @@
 # PhpSolr
-This library can be used to integrate apache Solr with existing MySql database.
+This library can be used in integrating apache Solr with existing MySql database.
 
 ## Detail Usage:
 The basic usage of the library is below. 
@@ -19,7 +19,7 @@ $response = $solr->getColumns('document_name');
 print_r($response);
 ```
 
-to get the multiple documents from the solr you can pas the array of documents name as an argument to getColumn method
+to get the multiple documents from the solr you can pas the array of documents' name as an argument to getColumn method
 
 ### Add Document To Solr
 
